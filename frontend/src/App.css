@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.addTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px auto;
+}
+
+input{
+    width: 380px;
+    border-radius: 5px;
+    padding: 12px 8px;
+}
+.add_bth{
+    margin-top: 6px;
+    background: #350b0b;
+    width: 380px;
+    font-size: x-large;
+}
+button {
+    width: 200px;
+    padding: 6px;
+    border-radius: 5px;
+    background: #5c59ff;
+    color: white;
+    cursor: pointer;
+}
+
+.todos{
+    padding: 8px 12px;
+    margin: 15px auto;
+    box-shadow: 2px 1px 2px 1px grey;
+    width: 1100px;
+}
+
+.completedTodos{
+    background: #32995b;
+}
+
+.todo_title, .todo_description{
+    margin-bottom: 6px;
+    word-wrap: break-word;
+}
